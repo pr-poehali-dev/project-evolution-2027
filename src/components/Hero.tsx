@@ -26,12 +26,21 @@ export default function Hero() {
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
+        <p className="text-xs md:text-sm uppercase tracking-widest mb-4 opacity-70">Управление репутацией</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          AURA
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90 mb-8">
+          Живые отзывы в Яндекс.Картах — чисто, быстро, безопасно. Ваши клиенты видят лучшее о вас.
         </p>
+        <a
+          href="https://www.donationalerts.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-white text-black px-8 py-3 uppercase tracking-widest text-sm font-semibold hover:bg-neutral-200 transition-colors duration-300"
+        >
+          Заказать отзывы
+        </a>
       </div>
     </div>
   );
